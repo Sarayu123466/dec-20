@@ -1,0 +1,2 @@
+from tomcat:7
+copy target/*.war /usr/local/tomcat/webapps/
