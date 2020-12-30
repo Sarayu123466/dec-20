@@ -47,6 +47,10 @@
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
   <name>Automated Test Depending on JSF 2.2</name>
+  <properties>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
+  </properties>
   
   <build>
     <finalName>test-${project.artifactId}</finalName>
